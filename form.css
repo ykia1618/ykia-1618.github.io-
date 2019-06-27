@@ -1,0 +1,186 @@
+#layer1 {
+    /*display: none;  /* 初期表示は非表示 */*/
+    position: fixed; 
+    left: 0px;
+    top: 0px;
+    width: 0%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.70;
+    z-index: 15;
+}
+
+
+#layer2 {
+    /*display: none;  /* 初期表示は非表示 */*/
+    position: fixed; 
+    right: 0px;
+    top: 0px;
+    width: 0%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.70;
+    z-index: 15;
+}
+
+
+#popup, #popup1 {
+    display: none;
+     /* 初期表示は非表示 */
+    position: fixed; 
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -200%);
+    width: 500px;
+    height: 500px;
+	background-color: black;
+	border: solid white;
+    border-radius: 5px;
+    z-index: 99;
+    border-radius: 5px;
+    border-radius: 5px;
+    transition: 1.5s;
+}
+@media (max-width: 767px){
+#popup, #popup1{
+    width: 100%;
+	border: none;
+}
+}
+
+
+
+#orderform, #orderform1{
+	color: white;
+	font-size: 1.7em;
+	margin: 20px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+.cp_iptxt{
+	position: relative;
+	display: inline-block;
+	width: 80%;
+	margin: auto;
+	/*margin: 0 10px;*/
+	text-align: center;
+}
+
+.cp_iptxt input[type=text], select, textarea{
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+	height: 35px;
+	margin: 8px 0;
+	padding: 0.3em;
+	transition: 0.3s;
+	border: 1px solid #1b2538;
+	border-radius: 4px;
+	outline: none;
+	background-color: rgba(250, 250, 250, 1);
+}
+textarea{
+	height: 70px;
+}
+
+
+.cp_iptxt input[type=text]:focus{
+	border-color: #da3c41;
+}
+.cp_iptxt input[type=text]{
+	padding-left: 40px;
+}
+.cp_iptxt i {
+	position: absolute;
+	top: 8px;
+	left: 0;
+	padding: 9px 8px;
+	transition: 0.3s;
+	color: #999;
+}
+.cp_iptxt input[type=text]:focus + i {
+	color: #da3c41;
+}
+
+
+
+
+
+
+
+
+
+.afteropen3{
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 0%;
+	height: 100%;
+	transition: .5s;
+	/*background-color: rgba(51, 51, 51, 0.9);*/
+	background-color: black;
+    opacity: 0.80;
+	overflow-x:hidden;
+	z-index: 90;
+	margin: auto;
+}
+
+.afteropen4{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 0%;
+	height: 100%;
+	transition: .5s;
+	/*background-color: rgba(51, 51, 51, 0.9);*/
+	background-color: black;
+    opacity: 0.80;
+	overflow-x:hidden;
+	z-index: 90;
+	margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cancel, .confirm{
+	margin:10px;
+	padding: 10px 30px;
+	font-size: 1.2em;
+	border-radius: 3px;
+	color: #333;
+	background-color: white;
+	transition: .2s;
+	cursor: pointer;
+	
+}
+
+.cancel:hover{
+	background-color: #da3c41;
+	color: white;
+}
+
+.confirm:hover{
+	background-color: #00BFFF;
+	color: white;
+}
+
+
