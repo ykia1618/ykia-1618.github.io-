@@ -1011,7 +1011,7 @@ max-width: 1000px;
 	position: relative;
 }
 .sec04bg{
-	background-image: url("../images/bgimg.jpg");
+	background-image: url("bgimg.jpg");
 	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1148,7 +1148,7 @@ max-width: 1000px;
 /*SECTYION05*/
 .sec05{
 	height: 100%;
-	background-image: url("../images/bgimg2b.jpg");
+	background-image: url("bgimg2b.jpg");
 	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1343,7 +1343,7 @@ footer{
 }
 
 .footer-bg{
-	background-image: url("../images/footerimg.jpg");
+	background-image: url("footerimg.jpg");
 	filter: brightness(80%);
 	background-position: center;
     background-repeat: no-repeat;
